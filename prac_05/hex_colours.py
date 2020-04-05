@@ -1,8 +1,3 @@
-"""
-CP1404 Practical
-Hexadecimal colour
-"""
-
 COLOUR_CODES = {"AliceBlue": "#f0f8ff", "AntiqueWhite": "#faebd7",
                 "AntiqueWhite1": "#ffefdb", "AntiqueWhite2": "#eedfcc",
                 "AntiqueWhite3": "#cdc0b0", "AntiqueWhite4": "#8b8378",
