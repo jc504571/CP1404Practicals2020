@@ -57,6 +57,7 @@ run_tests()
 # TODO: 3. Uncomment the following line and run the doctests
 doctest.testmod()
 
+
 # TODO: 4. Fix the failing is_long_word function
 # (don't change the tests, change the function!)
 
@@ -72,3 +73,18 @@ doctest.testmod()
 #   \
 #
 #   f the function so that the tests pass
+
+def phrase_to_sentence(phrase):
+    """
+    >>> phrase_to_sentence('hello')
+    'Hello.'
+    >>> phrase_to_sentence('It is an ex parrot.')
+    'It is an ex parrot.'
+    >>> phrase_to_sentence('Testing abc')
+    'testing abc.'
+    """
+
+    sentence = phrase.capitalize()
+    if phrase[-1] != '.':
+        sentence = phrase.capitalize() + "."
+    return sentence
